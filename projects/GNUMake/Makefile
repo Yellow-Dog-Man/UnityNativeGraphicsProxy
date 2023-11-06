@@ -1,11 +1,11 @@
-SRCDIR = ../../source
+﻿SRCDIR = ../../source
 SRCS = $(SRCDIR)/RenderCallback.cpp \
 $(SRCDIR)/OpenGLCoreES.cpp
 OBJS = ${SRCS:.cpp=.o}
 UNITY_DEFINES = -DSUPPORT_OPENGL_UNIFIED=1 -DUNITY_LINUX=1
 CXXFLAGS = $(UNITY_DEFINES) -O3 -fPIC
 LDFLAGS = -shared -rdynamic
-LIBS = 
+LIBS =
 PLUGIN_SHARED = libNativeGraphics.so
 CXX ?= g++
 

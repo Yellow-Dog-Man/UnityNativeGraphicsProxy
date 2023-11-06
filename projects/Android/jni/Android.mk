@@ -1,4 +1,4 @@
-LOCAL_PATH := $(call my-dir)
+﻿LOCAL_PATH := $(call my-dir)
 SRC_DIR := ../../../source
 
 include $(CLEAR_VARS)

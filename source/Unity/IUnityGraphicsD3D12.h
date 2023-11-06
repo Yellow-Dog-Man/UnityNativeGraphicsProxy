@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include "IUnityInterface.h"
 #ifndef __cplusplus
     #include <stdbool.h>
