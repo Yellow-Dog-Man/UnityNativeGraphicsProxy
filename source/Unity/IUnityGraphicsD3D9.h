@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include "IUnityInterface.h"
 
 // Should only be used on the rendering thread unless noted otherwise.
